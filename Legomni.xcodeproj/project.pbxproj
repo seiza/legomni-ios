@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40FCDB5156D560800249D22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDB4156D560800249D22 /* UIKit.framework */; };
+		C40FCDB7156D560800249D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDB6156D560800249D22 /* Foundation.framework */; };
+		C40FCDB9156D560800249D22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDB8156D560800249D22 /* CoreGraphics.framework */; };
+		C40FCDBF156D560800249D22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDBD156D560800249D22 /* InfoPlist.strings */; };
+		C40FCDC1156D560800249D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCDC0156D560800249D22 /* main.m */; };
+		C40FCDC5156D560800249D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCDC4156D560800249D22 /* AppDelegate.m */; };
+		C40FCDC8156D560800249D22 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCDC7156D560800249D22 /* MasterViewController.m */; };
+		C40FCDCB156D560800249D22 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCDCA156D560800249D22 /* DetailViewController.m */; };
+		C40FCDCE156D560800249D22 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDCC156D560800249D22 /* MasterViewController_iPhone.xib */; };
+		C40FCDD1156D560800249D22 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDCF156D560800249D22 /* MasterViewController_iPad.xib */; };
+		C40FCDD4156D560800249D22 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDD2156D560800249D22 /* DetailViewController_iPhone.xib */; };
+		C40FCDD7156D560800249D22 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDD5156D560800249D22 /* DetailViewController_iPad.xib */; };
+		C40FCDDF156D560900249D22 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDDE156D560900249D22 /* SenTestingKit.framework */; };
+		C40FCDE0156D560900249D22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDB4156D560800249D22 /* UIKit.framework */; };
+		C40FCDE1156D560900249D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40FCDB6156D560800249D22 /* Foundation.framework */; };
+		C40FCDE9156D560900249D22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40FCDE7156D560900249D22 /* InfoPlist.strings */; };
+		C40FCDEC156D560900249D22 /* LegomniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCDEB156D560900249D22 /* LegomniTests.m */; };
+		C40FCE50156D589100249D22 /* AztecWarrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE40156D589100249D22 /* AztecWarrior.jpg */; };
+		C40FCE51156D589100249D22 /* Bagpiper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE41156D589100249D22 /* Bagpiper.jpg */; };
+		C40FCE52156D589100249D22 /* Bride.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE42156D589100249D22 /* Bride.jpg */; };
+		C40FCE53156D589100249D22 /* BunnySuitGuy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE43156D589100249D22 /* BunnySuitGuy.jpg */; };
+		C40FCE54156D589100249D22 /* ComputerProgrammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE44156D589100249D22 /* ComputerProgrammer.jpg */; };
+		C40FCE55156D589100249D22 /* Daredevil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE45156D589100249D22 /* Daredevil.jpg */; };
+		C40FCE56156D589100249D22 /* EvilKnight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE46156D589100249D22 /* EvilKnight.jpg */; };
+		C40FCE57156D589100249D22 /* GalaxyPatrol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE47156D589100249D22 /* GalaxyPatrol.jpg */; };
+		C40FCE58156D589100249D22 /* GrandmaVisitor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE48156D589100249D22 /* GrandmaVisitor.jpg */; };
+		C40FCE59156D589100249D22 /* Hippie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE49156D589100249D22 /* Hippie.jpg */; };
+		C40FCE5A156D589100249D22 /* JungleBoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4A156D589100249D22 /* JungleBoy.jpg */; };
+		C40FCE5B156D589100249D22 /* OceanKing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4B156D589100249D22 /* OceanKing.jpg */; };
+		C40FCE5C156D589100249D22 /* RockerGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4C156D589100249D22 /* RockerGirl.jpg */; };
+		C40FCE5D156D589100249D22 /* SwimmingChampion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4D156D589100249D22 /* SwimmingChampion.jpg */; };
+		C40FCE5E156D589100249D22 /* TennisAce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4E156D589100249D22 /* TennisAce.jpg */; };
+		C40FCE5F156D589100249D22 /* VikingWoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE4F156D589100249D22 /* VikingWoman.jpg */; };
+		C40FCE66156D594900249D22 /* 7.txt in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE65156D594900249D22 /* 7.txt */; };
+		C40FCE6A156D59BB00249D22 /* Legomni.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCE69156D59BB00249D22 /* Legomni.m */; };
+		C40FCE6D156D59CD00249D22 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCE6C156D59CD00249D22 /* Figure.m */; };
+		C40FCE70156D5B3C00249D22 /* Serie.m in Sources */ = {isa = PBXBuildFile; fileRef = C40FCE6F156D5B3C00249D22 /* Serie.m */; };
+		C40FCE76156D839100249D22 /* ComputerProgrammer.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE75156D839100249D22 /* ComputerProgrammer.plist */; };
+		C40FCE79156DA34300249D22 /* GrandmaVisitor.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE77156DA34300249D22 /* GrandmaVisitor.plist */; };
+		C40FCE7A156DA34300249D22 /* Hippie.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE78156DA34300249D22 /* Hippie.plist */; };
+		C40FCE7C156DA4AF00249D22 /* OceanKing.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE7B156DA4AF00249D22 /* OceanKing.plist */; };
+		C40FCE89156DB14700249D22 /* AztecWarrior.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE7D156DB14600249D22 /* AztecWarrior.plist */; };
+		C40FCE8A156DB14700249D22 /* Bagpiper.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE7E156DB14600249D22 /* Bagpiper.plist */; };
+		C40FCE8B156DB14700249D22 /* Bride.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE7F156DB14600249D22 /* Bride.plist */; };
+		C40FCE8C156DB14700249D22 /* BunnySuitGuy.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE80156DB14600249D22 /* BunnySuitGuy.plist */; };
+		C40FCE8D156DB14700249D22 /* Daredevil.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE81156DB14600249D22 /* Daredevil.plist */; };
+		C40FCE8E156DB14700249D22 /* EvilKnight.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE82156DB14600249D22 /* EvilKnight.plist */; };
+		C40FCE8F156DB14700249D22 /* GalaxyPatrol.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE83156DB14700249D22 /* GalaxyPatrol.plist */; };
+		C40FCE90156DB14700249D22 /* JungleBoy.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE84156DB14700249D22 /* JungleBoy.plist */; };
+		C40FCE91156DB14700249D22 /* RockerGirl.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE85156DB14700249D22 /* RockerGirl.plist */; };
+		C40FCE92156DB14700249D22 /* SwimmingChampion.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE86156DB14700249D22 /* SwimmingChampion.plist */; };
+		C40FCE93156DB14700249D22 /* TennisAce.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE87156DB14700249D22 /* TennisAce.plist */; };
+		C40FCE94156DB14700249D22 /* VikingWoman.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE88156DB14700249D22 /* VikingWoman.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40FCDE2156D560900249D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40FCDA7156D560800249D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40FCDAF156D560800249D22;
+			remoteInfo = Legomni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40FCDB0156D560800249D22 /* Legomni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Legomni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40FCDB4156D560800249D22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C40FCDB6156D560800249D22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C40FCDB8156D560800249D22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C40FCDBC156D560800249D22 /* Legomni-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Legomni-Info.plist"; sourceTree = "<group>"; };
+		C40FCDBE156D560800249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C40FCDC0156D560800249D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40FCDC2156D560800249D22 /* Legomni-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Legomni-Prefix.pch"; sourceTree = "<group>"; };
+		C40FCDC3156D560800249D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40FCDC4156D560800249D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40FCDC6156D560800249D22 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C40FCDC7156D560800249D22 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C40FCDC9156D560800249D22 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C40FCDCA156D560800249D22 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C40FCDCD156D560800249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		C40FCDD0156D560800249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		C40FCDD3156D560800249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		C40FCDD6156D560800249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		C40FCDDD156D560900249D22 /* LegomniTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegomniTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40FCDDE156D560900249D22 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C40FCDE6156D560900249D22 /* LegomniTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LegomniTests-Info.plist"; sourceTree = "<group>"; };
+		C40FCDE8156D560900249D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C40FCDEA156D560900249D22 /* LegomniTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegomniTests.h; sourceTree = "<group>"; };
+		C40FCDEB156D560900249D22 /* LegomniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LegomniTests.m; sourceTree = "<group>"; };
+		C40FCE40156D589100249D22 /* AztecWarrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AztecWarrior.jpg; sourceTree = "<group>"; };
+		C40FCE41156D589100249D22 /* Bagpiper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bagpiper.jpg; sourceTree = "<group>"; };
+		C40FCE42156D589100249D22 /* Bride.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bride.jpg; sourceTree = "<group>"; };
+		C40FCE43156D589100249D22 /* BunnySuitGuy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BunnySuitGuy.jpg; sourceTree = "<group>"; };
+		C40FCE44156D589100249D22 /* ComputerProgrammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ComputerProgrammer.jpg; sourceTree = "<group>"; };
+		C40FCE45156D589100249D22 /* Daredevil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Daredevil.jpg; sourceTree = "<group>"; };
+		C40FCE46156D589100249D22 /* EvilKnight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EvilKnight.jpg; sourceTree = "<group>"; };
+		C40FCE47156D589100249D22 /* GalaxyPatrol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GalaxyPatrol.jpg; sourceTree = "<group>"; };
+		C40FCE48156D589100249D22 /* GrandmaVisitor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GrandmaVisitor.jpg; sourceTree = "<group>"; };
+		C40FCE49156D589100249D22 /* Hippie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hippie.jpg; sourceTree = "<group>"; };
+		C40FCE4A156D589100249D22 /* JungleBoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JungleBoy.jpg; sourceTree = "<group>"; };
+		C40FCE4B156D589100249D22 /* OceanKing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OceanKing.jpg; sourceTree = "<group>"; };
+		C40FCE4C156D589100249D22 /* RockerGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockerGirl.jpg; sourceTree = "<group>"; };
+		C40FCE4D156D589100249D22 /* SwimmingChampion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwimmingChampion.jpg; sourceTree = "<group>"; };
+		C40FCE4E156D589100249D22 /* TennisAce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TennisAce.jpg; sourceTree = "<group>"; };
+		C40FCE4F156D589100249D22 /* VikingWoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VikingWoman.jpg; sourceTree = "<group>"; };
+		C40FCE65156D594900249D22 /* 7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 7.txt; sourceTree = "<group>"; };
+		C40FCE68156D59BB00249D22 /* Legomni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legomni.h; sourceTree = "<group>"; };
+		C40FCE69156D59BB00249D22 /* Legomni.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Legomni.m; sourceTree = "<group>"; };
+		C40FCE6B156D59CD00249D22 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		C40FCE6C156D59CD00249D22 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		C40FCE6E156D5B3C00249D22 /* Serie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serie.h; sourceTree = "<group>"; };
+		C40FCE6F156D5B3C00249D22 /* Serie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Serie.m; sourceTree = "<group>"; };
+		C40FCE75156D839100249D22 /* ComputerProgrammer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ComputerProgrammer.plist; sourceTree = "<group>"; };
+		C40FCE77156DA34300249D22 /* GrandmaVisitor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GrandmaVisitor.plist; sourceTree = "<group>"; };
+		C40FCE78156DA34300249D22 /* Hippie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hippie.plist; sourceTree = "<group>"; };
+		C40FCE7B156DA4AF00249D22 /* OceanKing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OceanKing.plist; sourceTree = "<group>"; };
+		C40FCE7D156DB14600249D22 /* AztecWarrior.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AztecWarrior.plist; sourceTree = "<group>"; };
+		C40FCE7E156DB14600249D22 /* Bagpiper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bagpiper.plist; sourceTree = "<group>"; };
+		C40FCE7F156DB14600249D22 /* Bride.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bride.plist; sourceTree = "<group>"; };
+		C40FCE80156DB14600249D22 /* BunnySuitGuy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BunnySuitGuy.plist; sourceTree = "<group>"; };
+		C40FCE81156DB14600249D22 /* Daredevil.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Daredevil.plist; sourceTree = "<group>"; };
+		C40FCE82156DB14600249D22 /* EvilKnight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EvilKnight.plist; sourceTree = "<group>"; };
+		C40FCE83156DB14700249D22 /* GalaxyPatrol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GalaxyPatrol.plist; sourceTree = "<group>"; };
+		C40FCE84156DB14700249D22 /* JungleBoy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JungleBoy.plist; sourceTree = "<group>"; };
+		C40FCE85156DB14700249D22 /* RockerGirl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RockerGirl.plist; sourceTree = "<group>"; };
+		C40FCE86156DB14700249D22 /* SwimmingChampion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwimmingChampion.plist; sourceTree = "<group>"; };
+		C40FCE87156DB14700249D22 /* TennisAce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TennisAce.plist; sourceTree = "<group>"; };
+		C40FCE88156DB14700249D22 /* VikingWoman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VikingWoman.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40FCDAD156D560800249D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDB5156D560800249D22 /* UIKit.framework in Frameworks */,
+				C40FCDB7156D560800249D22 /* Foundation.framework in Frameworks */,
+				C40FCDB9156D560800249D22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40FCDD9156D560900249D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDDF156D560900249D22 /* SenTestingKit.framework in Frameworks */,
+				C40FCDE0156D560900249D22 /* UIKit.framework in Frameworks */,
+				C40FCDE1156D560900249D22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40FCDA5156D560800249D22 = {
+			isa = PBXGroup;
+			children = (
+				C40FCDBA156D560800249D22 /* Legomni */,
+				C40FCDE4156D560900249D22 /* LegomniTests */,
+				C40FCDB3156D560800249D22 /* Frameworks */,
+				C40FCDB1156D560800249D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40FCDB1156D560800249D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCDB0156D560800249D22 /* Legomni.app */,
+				C40FCDDD156D560900249D22 /* LegomniTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40FCDB3156D560800249D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCDB4156D560800249D22 /* UIKit.framework */,
+				C40FCDB6156D560800249D22 /* Foundation.framework */,
+				C40FCDB8156D560800249D22 /* CoreGraphics.framework */,
+				C40FCDDE156D560900249D22 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C40FCDBA156D560800249D22 /* Legomni */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE67156D59A000249D22 /* Models */,
+				C40FCDC3156D560800249D22 /* AppDelegate.h */,
+				C40FCDC4156D560800249D22 /* AppDelegate.m */,
+				C40FCDC6156D560800249D22 /* MasterViewController.h */,
+				C40FCDC7156D560800249D22 /* MasterViewController.m */,
+				C40FCDC9156D560800249D22 /* DetailViewController.h */,
+				C40FCDCA156D560800249D22 /* DetailViewController.m */,
+				C40FCDCC156D560800249D22 /* MasterViewController_iPhone.xib */,
+				C40FCDCF156D560800249D22 /* MasterViewController_iPad.xib */,
+				C40FCDD2156D560800249D22 /* DetailViewController_iPhone.xib */,
+				C40FCDD5156D560800249D22 /* DetailViewController_iPad.xib */,
+				C40FCDBB156D560800249D22 /* Supporting Files */,
+			);
+			path = Legomni;
+			sourceTree = "<group>";
+		};
+		C40FCDBB156D560800249D22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE60156D589800249D22 /* Informations */,
+				C40FCE3D156D589100249D22 /* Images */,
+				C40FCDBC156D560800249D22 /* Legomni-Info.plist */,
+				C40FCDBD156D560800249D22 /* InfoPlist.strings */,
+				C40FCDC0156D560800249D22 /* main.m */,
+				C40FCDC2156D560800249D22 /* Legomni-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C40FCDE4156D560900249D22 /* LegomniTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCDEA156D560900249D22 /* LegomniTests.h */,
+				C40FCDEB156D560900249D22 /* LegomniTests.m */,
+				C40FCDE5156D560900249D22 /* Supporting Files */,
+			);
+			path = LegomniTests;
+			sourceTree = "<group>";
+		};
+		C40FCDE5156D560900249D22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCDE6156D560900249D22 /* LegomniTests-Info.plist */,
+				C40FCDE7156D560900249D22 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C40FCE3D156D589100249D22 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE3E156D589100249D22 /* Series */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		C40FCE3E156D589100249D22 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE3F156D589100249D22 /* 7 */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		C40FCE3F156D589100249D22 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE65156D594900249D22 /* 7.txt */,
+				C40FCE40156D589100249D22 /* AztecWarrior.jpg */,
+				C40FCE41156D589100249D22 /* Bagpiper.jpg */,
+				C40FCE42156D589100249D22 /* Bride.jpg */,
+				C40FCE43156D589100249D22 /* BunnySuitGuy.jpg */,
+				C40FCE44156D589100249D22 /* ComputerProgrammer.jpg */,
+				C40FCE45156D589100249D22 /* Daredevil.jpg */,
+				C40FCE46156D589100249D22 /* EvilKnight.jpg */,
+				C40FCE47156D589100249D22 /* GalaxyPatrol.jpg */,
+				C40FCE48156D589100249D22 /* GrandmaVisitor.jpg */,
+				C40FCE49156D589100249D22 /* Hippie.jpg */,
+				C40FCE4A156D589100249D22 /* JungleBoy.jpg */,
+				C40FCE4B156D589100249D22 /* OceanKing.jpg */,
+				C40FCE4C156D589100249D22 /* RockerGirl.jpg */,
+				C40FCE4D156D589100249D22 /* SwimmingChampion.jpg */,
+				C40FCE4E156D589100249D22 /* TennisAce.jpg */,
+				C40FCE4F156D589100249D22 /* VikingWoman.jpg */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		C40FCE60156D589800249D22 /* Informations */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE61156D589800249D22 /* Series */,
+			);
+			name = Informations;
+			path = en.lproj/Informations;
+			sourceTree = "<group>";
+		};
+		C40FCE61156D589800249D22 /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE62156D589800249D22 /* 7 */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		C40FCE62156D589800249D22 /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE7D156DB14600249D22 /* AztecWarrior.plist */,
+				C40FCE7E156DB14600249D22 /* Bagpiper.plist */,
+				C40FCE7F156DB14600249D22 /* Bride.plist */,
+				C40FCE80156DB14600249D22 /* BunnySuitGuy.plist */,
+				C40FCE81156DB14600249D22 /* Daredevil.plist */,
+				C40FCE82156DB14600249D22 /* EvilKnight.plist */,
+				C40FCE75156D839100249D22 /* ComputerProgrammer.plist */,
+				C40FCE78156DA34300249D22 /* Hippie.plist */,
+				C40FCE7B156DA4AF00249D22 /* OceanKing.plist */,
+				C40FCE77156DA34300249D22 /* GrandmaVisitor.plist */,
+				C40FCE85156DB14700249D22 /* RockerGirl.plist */,
+				C40FCE83156DB14700249D22 /* GalaxyPatrol.plist */,
+				C40FCE86156DB14700249D22 /* SwimmingChampion.plist */,
+				C40FCE84156DB14700249D22 /* JungleBoy.plist */,
+				C40FCE87156DB14700249D22 /* TennisAce.plist */,
+				C40FCE88156DB14700249D22 /* VikingWoman.plist */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		C40FCE67156D59A000249D22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C40FCE68156D59BB00249D22 /* Legomni.h */,
+				C40FCE69156D59BB00249D22 /* Legomni.m */,
+				C40FCE6B156D59CD00249D22 /* Figure.h */,
+				C40FCE6C156D59CD00249D22 /* Figure.m */,
+				C40FCE6E156D5B3C00249D22 /* Serie.h */,
+				C40FCE6F156D5B3C00249D22 /* Serie.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40FCDAF156D560800249D22 /* Legomni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40FCDEF156D560900249D22 /* Build configuration list for PBXNativeTarget "Legomni" */;
+			buildPhases = (
+				C40FCDAC156D560800249D22 /* Sources */,
+				C40FCDAD156D560800249D22 /* Frameworks */,
+				C40FCDAE156D560800249D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Legomni;
+			productName = Legomni;
+			productReference = C40FCDB0156D560800249D22 /* Legomni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40FCDDC156D560900249D22 /* LegomniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40FCDF2156D560900249D22 /* Build configuration list for PBXNativeTarget "LegomniTests" */;
+			buildPhases = (
+				C40FCDD8156D560900249D22 /* Sources */,
+				C40FCDD9156D560900249D22 /* Frameworks */,
+				C40FCDDA156D560900249D22 /* Resources */,
+				C40FCDDB156D560900249D22 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40FCDE3156D560900249D22 /* PBXTargetDependency */,
+			);
+			name = LegomniTests;
+			productName = LegomniTests;
+			productReference = C40FCDDD156D560900249D22 /* LegomniTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40FCDA7156D560800249D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = me.couvreur;
+			};
+			buildConfigurationList = C40FCDAA156D560800249D22 /* Build configuration list for PBXProject "Legomni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C40FCDA5156D560800249D22;
+			productRefGroup = C40FCDB1156D560800249D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40FCDAF156D560800249D22 /* Legomni */,
+				C40FCDDC156D560900249D22 /* LegomniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40FCDAE156D560800249D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDBF156D560800249D22 /* InfoPlist.strings in Resources */,
+				C40FCDCE156D560800249D22 /* MasterViewController_iPhone.xib in Resources */,
+				C40FCDD1156D560800249D22 /* MasterViewController_iPad.xib in Resources */,
+				C40FCDD4156D560800249D22 /* DetailViewController_iPhone.xib in Resources */,
+				C40FCDD7156D560800249D22 /* DetailViewController_iPad.xib in Resources */,
+				C40FCE50156D589100249D22 /* AztecWarrior.jpg in Resources */,
+				C40FCE51156D589100249D22 /* Bagpiper.jpg in Resources */,
+				C40FCE52156D589100249D22 /* Bride.jpg in Resources */,
+				C40FCE53156D589100249D22 /* BunnySuitGuy.jpg in Resources */,
+				C40FCE54156D589100249D22 /* ComputerProgrammer.jpg in Resources */,
+				C40FCE55156D589100249D22 /* Daredevil.jpg in Resources */,
+				C40FCE56156D589100249D22 /* EvilKnight.jpg in Resources */,
+				C40FCE57156D589100249D22 /* GalaxyPatrol.jpg in Resources */,
+				C40FCE58156D589100249D22 /* GrandmaVisitor.jpg in Resources */,
+				C40FCE59156D589100249D22 /* Hippie.jpg in Resources */,
+				C40FCE5A156D589100249D22 /* JungleBoy.jpg in Resources */,
+				C40FCE5B156D589100249D22 /* OceanKing.jpg in Resources */,
+				C40FCE5C156D589100249D22 /* RockerGirl.jpg in Resources */,
+				C40FCE5D156D589100249D22 /* SwimmingChampion.jpg in Resources */,
+				C40FCE5E156D589100249D22 /* TennisAce.jpg in Resources */,
+				C40FCE5F156D589100249D22 /* VikingWoman.jpg in Resources */,
+				C40FCE66156D594900249D22 /* 7.txt in Resources */,
+				C40FCE76156D839100249D22 /* ComputerProgrammer.plist in Resources */,
+				C40FCE79156DA34300249D22 /* GrandmaVisitor.plist in Resources */,
+				C40FCE7A156DA34300249D22 /* Hippie.plist in Resources */,
+				C40FCE7C156DA4AF00249D22 /* OceanKing.plist in Resources */,
+				C40FCE89156DB14700249D22 /* AztecWarrior.plist in Resources */,
+				C40FCE8A156DB14700249D22 /* Bagpiper.plist in Resources */,
+				C40FCE8B156DB14700249D22 /* Bride.plist in Resources */,
+				C40FCE8C156DB14700249D22 /* BunnySuitGuy.plist in Resources */,
+				C40FCE8D156DB14700249D22 /* Daredevil.plist in Resources */,
+				C40FCE8E156DB14700249D22 /* EvilKnight.plist in Resources */,
+				C40FCE8F156DB14700249D22 /* GalaxyPatrol.plist in Resources */,
+				C40FCE90156DB14700249D22 /* JungleBoy.plist in Resources */,
+				C40FCE91156DB14700249D22 /* RockerGirl.plist in Resources */,
+				C40FCE92156DB14700249D22 /* SwimmingChampion.plist in Resources */,
+				C40FCE93156DB14700249D22 /* TennisAce.plist in Resources */,
+				C40FCE94156DB14700249D22 /* VikingWoman.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40FCDDA156D560900249D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDE9156D560900249D22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C40FCDDB156D560900249D22 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40FCDAC156D560800249D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDC1156D560800249D22 /* main.m in Sources */,
+				C40FCDC5156D560800249D22 /* AppDelegate.m in Sources */,
+				C40FCDC8156D560800249D22 /* MasterViewController.m in Sources */,
+				C40FCDCB156D560800249D22 /* DetailViewController.m in Sources */,
+				C40FCE6A156D59BB00249D22 /* Legomni.m in Sources */,
+				C40FCE6D156D59CD00249D22 /* Figure.m in Sources */,
+				C40FCE70156D5B3C00249D22 /* Serie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40FCDD8156D560900249D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40FCDEC156D560900249D22 /* LegomniTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40FCDE3156D560900249D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40FCDAF156D560800249D22 /* Legomni */;
+			targetProxy = C40FCDE2156D560900249D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40FCDBD156D560800249D22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDBE156D560800249D22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C40FCDCC156D560800249D22 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDCD156D560800249D22 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C40FCDCF156D560800249D22 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDD0156D560800249D22 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C40FCDD2156D560800249D22 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDD3156D560800249D22 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C40FCDD5156D560800249D22 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDD6156D560800249D22 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C40FCDE7156D560900249D22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40FCDE8156D560900249D22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40FCDED156D560900249D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40FCDEE156D560900249D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40FCDF0156D560900249D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Legomni/Legomni-Prefix.pch";
+				INFOPLIST_FILE = "Legomni/Legomni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C40FCDF1156D560900249D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Legomni/Legomni-Prefix.pch";
+				INFOPLIST_FILE = "Legomni/Legomni-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C40FCDF3156D560900249D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Legomni.app/Legomni";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Legomni/Legomni-Prefix.pch";
+				INFOPLIST_FILE = "LegomniTests/LegomniTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C40FCDF4156D560900249D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Legomni.app/Legomni";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Legomni/Legomni-Prefix.pch";
+				INFOPLIST_FILE = "LegomniTests/LegomniTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40FCDAA156D560800249D22 /* Build configuration list for PBXProject "Legomni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40FCDED156D560900249D22 /* Debug */,
+				C40FCDEE156D560900249D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40FCDEF156D560900249D22 /* Build configuration list for PBXNativeTarget "Legomni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40FCDF0156D560900249D22 /* Debug */,
+				C40FCDF1156D560900249D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40FCDF2156D560900249D22 /* Build configuration list for PBXNativeTarget "LegomniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40FCDF3156D560900249D22 /* Debug */,
+				C40FCDF4156D560900249D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40FCDA7156D560800249D22 /* Project object */;
+}
