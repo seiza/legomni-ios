@@ -5,7 +5,7 @@
 	<key>Name</key>
 	<string>Detective</string>
 	<key>Index</key>
-	<integer>0</integer>
+	<integer>11</integer>
 	<key>URL</key>
 	<string>http://minifigures.lego.com/en-us/Bios/Detective.aspx</string>
 	<key>Slogan</key>
@@ -13,8 +13,7 @@
 	<key>Description</key>
 	<string>If you’ve got a major mystery to solve, the Detective is your minifigure. He’s famed across the land for his amazing deductive skills, and he never gives up on a case, no matter how impossible it may at first appear. He just whips out his magnifying glass, follows the clues, and always arrives at the right solution in the end.
 
-You may have heard of some of the Detective’s most famous cases. He’s the one who single-handedly solved the Brickster’s Baffling Brick-Napping, the Sam Sinister Switcheroo, and the Mystery of Timmy’s Nose. Why, he even tracked down a missing pet from the Racing Drome…and robot monkeys don’t leave footprints!
-Who can rise and shine when bed is so comfy and you’ve got your favorite teddy bear by your side? Don’t worry; the Sleepyhead will be up in a minute. Maybe he’ll just close his eyes and grab a quick nap first, though. After all, you can’t get through the day without plenty of rest! Zzzzz…</string>
+You may have heard of some of the Detective’s most famous cases. He’s the one who single-handedly solved the Brickster’s Baffling Brick-Napping, the Sam Sinister Switcheroo, and the Mystery of Timmy’s Nose. Why, he even tracked down a missing pet from the Racing Drome…and robot monkeys don’t leave footprints!</string>
 	<key>SkillStrength</key>
 	<integer>3</integer>
 	<key>SkillCreativity</key>
