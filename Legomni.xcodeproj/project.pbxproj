@@ -60,6 +60,40 @@
 		C40FCE92156DB14700249D22 /* SwimmingChampion.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE86156DB14700249D22 /* SwimmingChampion.plist */; };
 		C40FCE93156DB14700249D22 /* TennisAce.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE87156DB14700249D22 /* TennisAce.plist */; };
 		C40FCE94156DB14700249D22 /* VikingWoman.plist in Resources */ = {isa = PBXBuildFile; fileRef = C40FCE88156DB14700249D22 /* VikingWoman.plist */; };
+		C423A35C1574A19800D7D1FA /* FlamencoDancer.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A34C1574A19800D7D1FA /* FlamencoDancer.plist */; };
+		C423A35D1574A19800D7D1FA /* LadyLiberty.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A34D1574A19800D7D1FA /* LadyLiberty.plist */; };
+		C423A35E1574A19800D7D1FA /* ClockworkRobot.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A34E1574A19800D7D1FA /* ClockworkRobot.plist */; };
+		C423A35F1574A19800D7D1FA /* Sleepyhead.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A34F1574A19800D7D1FA /* Sleepyhead.plist */; };
+		C423A3601574A19800D7D1FA /* Surgeon.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3501574A19800D7D1FA /* Surgeon.plist */; };
+		C423A3611574A19800D7D1FA /* SkaterGirl.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3511574A19800D7D1FA /* SkaterGirl.plist */; };
+		C423A3621574A19800D7D1FA /* Mechanic.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3521574A19800D7D1FA /* Mechanic.plist */; };
+		C423A3631574A19800D7D1FA /* Butcher.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3531574A19800D7D1FA /* Butcher.plist */; };
+		C423A3641574A19800D7D1FA /* IntergalacticGirl.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3541574A19800D7D1FA /* IntergalacticGirl.plist */; };
+		C423A3651574A19800D7D1FA /* Leprechaun.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3551574A19800D7D1FA /* Leprechaun.plist */; };
+		C423A3661574A19800D7D1FA /* Genie.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3561574A19800D7D1FA /* Genie.plist */; };
+		C423A3671574A19800D7D1FA /* ClassicAlien.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3571574A19800D7D1FA /* ClassicAlien.plist */; };
+		C423A3681574A19800D7D1FA /* Bandit.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3581574A19800D7D1FA /* Bandit.plist */; };
+		C423A3691574A19800D7D1FA /* Minotaur.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3591574A19800D7D1FA /* Minotaur.plist */; };
+		C423A36A1574A19800D7D1FA /* HighlandBattler.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A35A1574A19800D7D1FA /* HighlandBattler.plist */; };
+		C423A36B1574A19800D7D1FA /* RomanSoldier.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A35B1574A19800D7D1FA /* RomanSoldier.plist */; };
+		C423A36E1574A61500D7D1FA /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = C423A36D1574A61400D7D1FA /* 6.txt */; };
+		C423A3811574A65E00D7D1FA /* 6.txt in Resources */ = {isa = PBXBuildFile; fileRef = C423A3701574A65E00D7D1FA /* 6.txt */; };
+		C423A3821574A65E00D7D1FA /* Bandit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3711574A65E00D7D1FA /* Bandit.jpg */; };
+		C423A3831574A65E00D7D1FA /* Butcher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3721574A65E00D7D1FA /* Butcher.jpg */; };
+		C423A3841574A65E00D7D1FA /* ClassicAlien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3731574A65E00D7D1FA /* ClassicAlien.jpg */; };
+		C423A3851574A65E00D7D1FA /* ClockworkRobot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3741574A65E00D7D1FA /* ClockworkRobot.jpg */; };
+		C423A3861574A65E00D7D1FA /* FlamencoDancer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3751574A65E00D7D1FA /* FlamencoDancer.jpg */; };
+		C423A3871574A65E00D7D1FA /* Genie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3761574A65E00D7D1FA /* Genie.jpg */; };
+		C423A3881574A65E00D7D1FA /* HighlandBattler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3771574A65E00D7D1FA /* HighlandBattler.jpg */; };
+		C423A3891574A65E00D7D1FA /* IntergalacticGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3781574A65E00D7D1FA /* IntergalacticGirl.jpg */; };
+		C423A38A1574A65E00D7D1FA /* LadyLiberty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3791574A65E00D7D1FA /* LadyLiberty.jpg */; };
+		C423A38B1574A65E00D7D1FA /* Leprechaun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37A1574A65E00D7D1FA /* Leprechaun.jpg */; };
+		C423A38C1574A65E00D7D1FA /* Mechanic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37B1574A65E00D7D1FA /* Mechanic.jpg */; };
+		C423A38D1574A65E00D7D1FA /* Minotaur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37C1574A65E00D7D1FA /* Minotaur.jpg */; };
+		C423A38E1574A65E00D7D1FA /* RomanSoldier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37D1574A65E00D7D1FA /* RomanSoldier.jpg */; };
+		C423A38F1574A65E00D7D1FA /* SkaterGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37E1574A65E00D7D1FA /* SkaterGirl.jpg */; };
+		C423A3901574A65E00D7D1FA /* Sleepyhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37F1574A65E00D7D1FA /* Sleepyhead.jpg */; };
+		C423A3911574A65E00D7D1FA /* Surgeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3801574A65E00D7D1FA /* Surgeon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +170,40 @@
 		C40FCE86156DB14700249D22 /* SwimmingChampion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwimmingChampion.plist; sourceTree = "<group>"; };
 		C40FCE87156DB14700249D22 /* TennisAce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TennisAce.plist; sourceTree = "<group>"; };
 		C40FCE88156DB14700249D22 /* VikingWoman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VikingWoman.plist; sourceTree = "<group>"; };
+		C423A34C1574A19800D7D1FA /* FlamencoDancer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FlamencoDancer.plist; sourceTree = "<group>"; };
+		C423A34D1574A19800D7D1FA /* LadyLiberty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LadyLiberty.plist; sourceTree = "<group>"; };
+		C423A34E1574A19800D7D1FA /* ClockworkRobot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClockworkRobot.plist; sourceTree = "<group>"; };
+		C423A34F1574A19800D7D1FA /* Sleepyhead.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sleepyhead.plist; sourceTree = "<group>"; };
+		C423A3501574A19800D7D1FA /* Surgeon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Surgeon.plist; sourceTree = "<group>"; };
+		C423A3511574A19800D7D1FA /* SkaterGirl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SkaterGirl.plist; sourceTree = "<group>"; };
+		C423A3521574A19800D7D1FA /* Mechanic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mechanic.plist; sourceTree = "<group>"; };
+		C423A3531574A19800D7D1FA /* Butcher.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Butcher.plist; sourceTree = "<group>"; };
+		C423A3541574A19800D7D1FA /* IntergalacticGirl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IntergalacticGirl.plist; sourceTree = "<group>"; };
+		C423A3551574A19800D7D1FA /* Leprechaun.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Leprechaun.plist; sourceTree = "<group>"; };
+		C423A3561574A19800D7D1FA /* Genie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Genie.plist; sourceTree = "<group>"; };
+		C423A3571574A19800D7D1FA /* ClassicAlien.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassicAlien.plist; sourceTree = "<group>"; };
+		C423A3581574A19800D7D1FA /* Bandit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bandit.plist; sourceTree = "<group>"; };
+		C423A3591574A19800D7D1FA /* Minotaur.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Minotaur.plist; sourceTree = "<group>"; };
+		C423A35A1574A19800D7D1FA /* HighlandBattler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HighlandBattler.plist; sourceTree = "<group>"; };
+		C423A35B1574A19800D7D1FA /* RomanSoldier.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RomanSoldier.plist; sourceTree = "<group>"; };
+		C423A36D1574A61400D7D1FA /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 6.txt; path = Legomni/Resources/Images/Series/6/6.txt; sourceTree = SOURCE_ROOT; };
+		C423A3701574A65E00D7D1FA /* 6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 6.txt; sourceTree = "<group>"; };
+		C423A3711574A65E00D7D1FA /* Bandit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bandit.jpg; sourceTree = "<group>"; };
+		C423A3721574A65E00D7D1FA /* Butcher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Butcher.jpg; sourceTree = "<group>"; };
+		C423A3731574A65E00D7D1FA /* ClassicAlien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClassicAlien.jpg; sourceTree = "<group>"; };
+		C423A3741574A65E00D7D1FA /* ClockworkRobot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClockworkRobot.jpg; sourceTree = "<group>"; };
+		C423A3751574A65E00D7D1FA /* FlamencoDancer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlamencoDancer.jpg; sourceTree = "<group>"; };
+		C423A3761574A65E00D7D1FA /* Genie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Genie.jpg; sourceTree = "<group>"; };
+		C423A3771574A65E00D7D1FA /* HighlandBattler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HighlandBattler.jpg; sourceTree = "<group>"; };
+		C423A3781574A65E00D7D1FA /* IntergalacticGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IntergalacticGirl.jpg; sourceTree = "<group>"; };
+		C423A3791574A65E00D7D1FA /* LadyLiberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LadyLiberty.jpg; sourceTree = "<group>"; };
+		C423A37A1574A65E00D7D1FA /* Leprechaun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leprechaun.jpg; sourceTree = "<group>"; };
+		C423A37B1574A65E00D7D1FA /* Mechanic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mechanic.jpg; sourceTree = "<group>"; };
+		C423A37C1574A65E00D7D1FA /* Minotaur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minotaur.jpg; sourceTree = "<group>"; };
+		C423A37D1574A65E00D7D1FA /* RomanSoldier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RomanSoldier.jpg; sourceTree = "<group>"; };
+		C423A37E1574A65E00D7D1FA /* SkaterGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SkaterGirl.jpg; sourceTree = "<group>"; };
+		C423A37F1574A65E00D7D1FA /* Sleepyhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sleepyhead.jpg; sourceTree = "<group>"; };
+		C423A3801574A65E00D7D1FA /* Surgeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surgeon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +323,7 @@
 		C40FCE3E156D589100249D22 /* Series */ = {
 			isa = PBXGroup;
 			children = (
+				C423A36F1574A65E00D7D1FA /* 6 */,
 				C40FCE3F156D589100249D22 /* 7 */,
 			);
 			path = Series;
@@ -296,6 +365,7 @@
 		C40FCE61156D589800249D22 /* Series */ = {
 			isa = PBXGroup;
 			children = (
+				C423A34B1574A19800D7D1FA /* 6 */,
 				C40FCE62156D589800249D22 /* 7 */,
 			);
 			path = Series;
@@ -335,6 +405,54 @@
 				C40FCE6F156D5B3C00249D22 /* Serie.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C423A34B1574A19800D7D1FA /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				C423A36D1574A61400D7D1FA /* 6.txt */,
+				C423A34C1574A19800D7D1FA /* FlamencoDancer.plist */,
+				C423A34D1574A19800D7D1FA /* LadyLiberty.plist */,
+				C423A34E1574A19800D7D1FA /* ClockworkRobot.plist */,
+				C423A34F1574A19800D7D1FA /* Sleepyhead.plist */,
+				C423A3501574A19800D7D1FA /* Surgeon.plist */,
+				C423A3511574A19800D7D1FA /* SkaterGirl.plist */,
+				C423A3521574A19800D7D1FA /* Mechanic.plist */,
+				C423A3531574A19800D7D1FA /* Butcher.plist */,
+				C423A3541574A19800D7D1FA /* IntergalacticGirl.plist */,
+				C423A3551574A19800D7D1FA /* Leprechaun.plist */,
+				C423A3561574A19800D7D1FA /* Genie.plist */,
+				C423A3571574A19800D7D1FA /* ClassicAlien.plist */,
+				C423A3581574A19800D7D1FA /* Bandit.plist */,
+				C423A3591574A19800D7D1FA /* Minotaur.plist */,
+				C423A35A1574A19800D7D1FA /* HighlandBattler.plist */,
+				C423A35B1574A19800D7D1FA /* RomanSoldier.plist */,
+			);
+			path = 6;
+			sourceTree = "<group>";
+		};
+		C423A36F1574A65E00D7D1FA /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				C423A3701574A65E00D7D1FA /* 6.txt */,
+				C423A3711574A65E00D7D1FA /* Bandit.jpg */,
+				C423A3721574A65E00D7D1FA /* Butcher.jpg */,
+				C423A3731574A65E00D7D1FA /* ClassicAlien.jpg */,
+				C423A3741574A65E00D7D1FA /* ClockworkRobot.jpg */,
+				C423A3751574A65E00D7D1FA /* FlamencoDancer.jpg */,
+				C423A3761574A65E00D7D1FA /* Genie.jpg */,
+				C423A3771574A65E00D7D1FA /* HighlandBattler.jpg */,
+				C423A3781574A65E00D7D1FA /* IntergalacticGirl.jpg */,
+				C423A3791574A65E00D7D1FA /* LadyLiberty.jpg */,
+				C423A37A1574A65E00D7D1FA /* Leprechaun.jpg */,
+				C423A37B1574A65E00D7D1FA /* Mechanic.jpg */,
+				C423A37C1574A65E00D7D1FA /* Minotaur.jpg */,
+				C423A37D1574A65E00D7D1FA /* RomanSoldier.jpg */,
+				C423A37E1574A65E00D7D1FA /* SkaterGirl.jpg */,
+				C423A37F1574A65E00D7D1FA /* Sleepyhead.jpg */,
+				C423A3801574A65E00D7D1FA /* Surgeon.jpg */,
+			);
+			path = 6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,6 +564,40 @@
 				C40FCE92156DB14700249D22 /* SwimmingChampion.plist in Resources */,
 				C40FCE93156DB14700249D22 /* TennisAce.plist in Resources */,
 				C40FCE94156DB14700249D22 /* VikingWoman.plist in Resources */,
+				C423A35C1574A19800D7D1FA /* FlamencoDancer.plist in Resources */,
+				C423A35D1574A19800D7D1FA /* LadyLiberty.plist in Resources */,
+				C423A35E1574A19800D7D1FA /* ClockworkRobot.plist in Resources */,
+				C423A35F1574A19800D7D1FA /* Sleepyhead.plist in Resources */,
+				C423A3601574A19800D7D1FA /* Surgeon.plist in Resources */,
+				C423A3611574A19800D7D1FA /* SkaterGirl.plist in Resources */,
+				C423A3621574A19800D7D1FA /* Mechanic.plist in Resources */,
+				C423A3631574A19800D7D1FA /* Butcher.plist in Resources */,
+				C423A3641574A19800D7D1FA /* IntergalacticGirl.plist in Resources */,
+				C423A3651574A19800D7D1FA /* Leprechaun.plist in Resources */,
+				C423A3661574A19800D7D1FA /* Genie.plist in Resources */,
+				C423A3671574A19800D7D1FA /* ClassicAlien.plist in Resources */,
+				C423A3681574A19800D7D1FA /* Bandit.plist in Resources */,
+				C423A3691574A19800D7D1FA /* Minotaur.plist in Resources */,
+				C423A36A1574A19800D7D1FA /* HighlandBattler.plist in Resources */,
+				C423A36B1574A19800D7D1FA /* RomanSoldier.plist in Resources */,
+				C423A36E1574A61500D7D1FA /* 6.txt in Resources */,
+				C423A3811574A65E00D7D1FA /* 6.txt in Resources */,
+				C423A3821574A65E00D7D1FA /* Bandit.jpg in Resources */,
+				C423A3831574A65E00D7D1FA /* Butcher.jpg in Resources */,
+				C423A3841574A65E00D7D1FA /* ClassicAlien.jpg in Resources */,
+				C423A3851574A65E00D7D1FA /* ClockworkRobot.jpg in Resources */,
+				C423A3861574A65E00D7D1FA /* FlamencoDancer.jpg in Resources */,
+				C423A3871574A65E00D7D1FA /* Genie.jpg in Resources */,
+				C423A3881574A65E00D7D1FA /* HighlandBattler.jpg in Resources */,
+				C423A3891574A65E00D7D1FA /* IntergalacticGirl.jpg in Resources */,
+				C423A38A1574A65E00D7D1FA /* LadyLiberty.jpg in Resources */,
+				C423A38B1574A65E00D7D1FA /* Leprechaun.jpg in Resources */,
+				C423A38C1574A65E00D7D1FA /* Mechanic.jpg in Resources */,
+				C423A38D1574A65E00D7D1FA /* Minotaur.jpg in Resources */,
+				C423A38E1574A65E00D7D1FA /* RomanSoldier.jpg in Resources */,
+				C423A38F1574A65E00D7D1FA /* SkaterGirl.jpg in Resources */,
+				C423A3901574A65E00D7D1FA /* Sleepyhead.jpg in Resources */,
+				C423A3911574A65E00D7D1FA /* Surgeon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

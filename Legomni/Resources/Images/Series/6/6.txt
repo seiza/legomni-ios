@@ -1,0 +1,16 @@
+Bandit
+Butcher
+ClassicAlien
+ClockworkRobot
+FlamencoDancer
+Genie
+HighlandBattler
+IntergalacticGirl
+LadyLiberty
+Leprechaun
+Mechanic
+Minotaur
+RomanSoldier
+SkaterGirl
+Sleepyhead
+Surgeon

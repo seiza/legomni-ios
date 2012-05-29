@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Mechanic</string>
+	<key>Index</key>
+	<integer>0</integer>
+	<key>URL</key>
+	<string>http://minifigures.lego.com/en-us/Bios/Mechanic.aspx</string>
+	<key>Slogan</key>
+	<string>Sure, I can fix that…but wouldn’t it be even cooler with a rocket engine?</string>
+	<key>Description</key>
+	<string>Nobody is better at quick repairs than the Mechanic. He can fix any dent, ding, rumble or rattle with his handy wrench and toolbox, and he doesn’t mind getting dirty in the process. No matter the problem, he’ll have your vehicle running as good as new in no time flat...but he never quite seems to know where to stop!</string>
+	<key>SkillStrength</key>
+	<integer>2</integer>
+	<key>SkillCreativity</key>
+	<integer>4</integer>
+	<key>SkillSpeed</key>
+	<integer>3</integer>
+</dict>
+</plist>
