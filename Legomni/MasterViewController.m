@@ -107,7 +107,10 @@
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return [NSString stringWithFormat:@"%@ %d", (NSLocalizedString(@"Série", @"Série")), [self serieForIndex:section].index];
+    Serie* serie = [self serieForIndex:section];
+    int count = [serie differentFiguresCount];
+    int doublesCount = [serie doubleCount];
+    return [NSString stringWithFormat:@"%@ %d (%d/16 + %d)", (NSLocalizedString(@"Série", @"Série")), serie.index, count, doublesCount];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

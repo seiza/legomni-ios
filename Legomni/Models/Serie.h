@@ -15,4 +15,7 @@
 
 - (id)initWithIndex:(int)index;
 
+- (int) differentFiguresCount;
+- (int) doubleCount;
+
 @end

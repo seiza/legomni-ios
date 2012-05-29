@@ -35,4 +35,21 @@
     return self;
 }
 
+
+- (int) differentFiguresCount {
+    int count = 0;
+    for (Figure* f in self.figures) {
+        if (f.quantity > 0) ++count;
+    }
+    return count;
+}
+
+- (int) doubleCount {
+    int count = 0;
+    for (Figure* f in self.figures) {
+        if (f.quantity > 1) count += f.quantity - 1;
+    }
+    return count;
+}
+
 @end

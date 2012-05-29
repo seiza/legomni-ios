@@ -127,6 +127,7 @@
 		C483C3F615752CEF00E7F77C /* SkaterGirl.plist in Resources */ = {isa = PBXBuildFile; fileRef = C483C3E615752CEF00E7F77C /* SkaterGirl.plist */; };
 		C483C3F715752CEF00E7F77C /* Sleepyhead.plist in Resources */ = {isa = PBXBuildFile; fileRef = C483C3E715752CEF00E7F77C /* Sleepyhead.plist */; };
 		C483C3F815752CEF00E7F77C /* Surgeon.plist in Resources */ = {isa = PBXBuildFile; fileRef = C483C3E815752CEF00E7F77C /* Surgeon.plist */; };
+		C483C3FB1575367E00E7F77C /* SerieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C483C3FA1575367E00E7F77C /* SerieTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,6 +271,8 @@
 		C483C3E615752CEF00E7F77C /* SkaterGirl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SkaterGirl.plist; sourceTree = "<group>"; };
 		C483C3E715752CEF00E7F77C /* Sleepyhead.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sleepyhead.plist; sourceTree = "<group>"; };
 		C483C3E815752CEF00E7F77C /* Surgeon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Surgeon.plist; sourceTree = "<group>"; };
+		C483C3F91575367E00E7F77C /* SerieTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerieTests.h; sourceTree = "<group>"; };
+		C483C3FA1575367E00E7F77C /* SerieTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerieTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +366,8 @@
 			children = (
 				C40FCDEA156D560900249D22 /* LegomniTests.h */,
 				C40FCDEB156D560900249D22 /* LegomniTests.m */,
+				C483C3F91575367E00E7F77C /* SerieTests.h */,
+				C483C3FA1575367E00E7F77C /* SerieTests.m */,
 				C40FCDE5156D560900249D22 /* Supporting Files */,
 			);
 			path = LegomniTests;
@@ -795,6 +800,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40FCDEC156D560900249D22 /* LegomniTests.m in Sources */,
+				C483C3FB1575367E00E7F77C /* SerieTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
