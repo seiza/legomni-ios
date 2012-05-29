@@ -1,0 +1,16 @@
+Boxer
+CaveWoman
+Detective
+EgyptianQueen
+EvilDwarf
+FitnessInstructor
+Gangster
+Gladiator
+Graduate
+IceFisherman
+LizardMan
+Lumberjack
+RoyalGuard
+SmallClown
+SnowboarderGuy
+Zookeeper

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Cave Woman</string>
+	<key>Index</key>
+	<integer>0</integer>
+	<key>URL</key>
+	<string>http://minifigures.lego.com/en-us/Bios/Cave%20Woman.aspx</string>
+	<key>Slogan</key>
+	<string>You keep on painting, dear. I’ll take care of that pesky saber-tooth.</string>
+	<key>Description</key>
+	<string>While the Caveman is trying to build new inventions, the Cave Woman is the one who actually gets all the practical things done. She smashes rocks to make tools, creates clothing out of hides and skins, chases off big meat-eaters and assembles clever traps for catching supper using sticks, stones and bits of shells.</string>
+	<key>SkillStrength</key>
+	<integer>3</integer>
+	<key>SkillCreativity</key>
+	<integer>3</integer>
+	<key>SkillSpeed</key>
+	<integer>5</integer>
+</dict>
+</plist>

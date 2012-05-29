@@ -18,8 +18,9 @@
     if (self) {
         self.series = [NSMutableArray array];
         
-        [series addObject:[[Serie alloc] initWithIndex:6]];
-        [series addObject:[[Serie alloc] initWithIndex:7]];
+        for (int i = 5; i <= 7; ++i) {
+            [series addObject:[[Serie alloc] initWithIndex:i]];
+        }
     }
     return self;
 }

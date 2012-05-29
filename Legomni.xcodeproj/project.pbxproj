@@ -94,6 +94,39 @@
 		C423A38F1574A65E00D7D1FA /* SkaterGirl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37E1574A65E00D7D1FA /* SkaterGirl.jpg */; };
 		C423A3901574A65E00D7D1FA /* Sleepyhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A37F1574A65E00D7D1FA /* Sleepyhead.jpg */; };
 		C423A3911574A65E00D7D1FA /* Surgeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3801574A65E00D7D1FA /* Surgeon.jpg */; };
+		C423A3A41574A81B00D7D1FA /* 5.txt in Resources */ = {isa = PBXBuildFile; fileRef = C423A3931574A81B00D7D1FA /* 5.txt */; };
+		C423A3A51574A81B00D7D1FA /* Boxer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3941574A81B00D7D1FA /* Boxer.jpg */; };
+		C423A3A61574A81B00D7D1FA /* CaveWoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3951574A81B00D7D1FA /* CaveWoman.jpg */; };
+		C423A3A71574A81B00D7D1FA /* Detective.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3961574A81B00D7D1FA /* Detective.jpg */; };
+		C423A3A81574A81B00D7D1FA /* EgyptianQueen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3971574A81B00D7D1FA /* EgyptianQueen.jpg */; };
+		C423A3A91574A81B00D7D1FA /* EvilDwarf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3981574A81B00D7D1FA /* EvilDwarf.jpg */; };
+		C423A3AA1574A81B00D7D1FA /* FitnessInstructor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3991574A81B00D7D1FA /* FitnessInstructor.jpg */; };
+		C423A3AB1574A81B00D7D1FA /* Gangster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39A1574A81B00D7D1FA /* Gangster.jpg */; };
+		C423A3AC1574A81B00D7D1FA /* Gladiator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39B1574A81B00D7D1FA /* Gladiator.jpg */; };
+		C423A3AD1574A81B00D7D1FA /* Graduate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39C1574A81B00D7D1FA /* Graduate.jpg */; };
+		C423A3AE1574A81B00D7D1FA /* IceFisherman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39D1574A81B00D7D1FA /* IceFisherman.jpg */; };
+		C423A3AF1574A81B00D7D1FA /* LizardMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39E1574A81B00D7D1FA /* LizardMan.jpg */; };
+		C423A3B01574A81B00D7D1FA /* Lumberjack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A39F1574A81B00D7D1FA /* Lumberjack.jpg */; };
+		C423A3B11574A81B00D7D1FA /* RoyalGuard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3A01574A81B00D7D1FA /* RoyalGuard.jpg */; };
+		C423A3B21574A81B00D7D1FA /* SmallClown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3A11574A81B00D7D1FA /* SmallClown.jpg */; };
+		C423A3B31574A81B00D7D1FA /* SnowboarderGuy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3A21574A81B00D7D1FA /* SnowboarderGuy.jpg */; };
+		C423A3B41574A81B00D7D1FA /* Zookeeper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C423A3A31574A81B00D7D1FA /* Zookeeper.jpg */; };
+		C423A3C61574A85200D7D1FA /* Boxer.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3B61574A85200D7D1FA /* Boxer.plist */; };
+		C423A3C71574A85200D7D1FA /* CaveWoman.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3B71574A85200D7D1FA /* CaveWoman.plist */; };
+		C423A3C81574A85200D7D1FA /* EgyptianQueen.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3B81574A85200D7D1FA /* EgyptianQueen.plist */; };
+		C423A3C91574A85200D7D1FA /* SmallClown.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3B91574A85200D7D1FA /* SmallClown.plist */; };
+		C423A3CA1574A85200D7D1FA /* EvilDwarf.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BA1574A85200D7D1FA /* EvilDwarf.plist */; };
+		C423A3CB1574A85200D7D1FA /* IceFisherman.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BB1574A85200D7D1FA /* IceFisherman.plist */; };
+		C423A3CC1574A85200D7D1FA /* FitnessInstructor.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BC1574A85200D7D1FA /* FitnessInstructor.plist */; };
+		C423A3CD1574A85200D7D1FA /* Gangster.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BD1574A85200D7D1FA /* Gangster.plist */; };
+		C423A3CE1574A85200D7D1FA /* Gladiator.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BE1574A85200D7D1FA /* Gladiator.plist */; };
+		C423A3CF1574A85200D7D1FA /* Graduate.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3BF1574A85200D7D1FA /* Graduate.plist */; };
+		C423A3D01574A85200D7D1FA /* LizardMan.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3C01574A85200D7D1FA /* LizardMan.plist */; };
+		C423A3D21574A85200D7D1FA /* Lumberjack.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3C21574A85200D7D1FA /* Lumberjack.plist */; };
+		C423A3D31574A85200D7D1FA /* RoyalGuard.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3C31574A85200D7D1FA /* RoyalGuard.plist */; };
+		C423A3D41574A85200D7D1FA /* Detective.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3C41574A85200D7D1FA /* Detective.plist */; };
+		C423A3D51574A85200D7D1FA /* SnowboarderGuy.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3C51574A85200D7D1FA /* SnowboarderGuy.plist */; };
+		C423A3D71574AC4400D7D1FA /* Zookeeper.plist in Resources */ = {isa = PBXBuildFile; fileRef = C423A3D61574AC4400D7D1FA /* Zookeeper.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +237,39 @@
 		C423A37E1574A65E00D7D1FA /* SkaterGirl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SkaterGirl.jpg; sourceTree = "<group>"; };
 		C423A37F1574A65E00D7D1FA /* Sleepyhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sleepyhead.jpg; sourceTree = "<group>"; };
 		C423A3801574A65E00D7D1FA /* Surgeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surgeon.jpg; sourceTree = "<group>"; };
+		C423A3931574A81B00D7D1FA /* 5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		C423A3941574A81B00D7D1FA /* Boxer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boxer.jpg; sourceTree = "<group>"; };
+		C423A3951574A81B00D7D1FA /* CaveWoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaveWoman.jpg; sourceTree = "<group>"; };
+		C423A3961574A81B00D7D1FA /* Detective.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Detective.jpg; sourceTree = "<group>"; };
+		C423A3971574A81B00D7D1FA /* EgyptianQueen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EgyptianQueen.jpg; sourceTree = "<group>"; };
+		C423A3981574A81B00D7D1FA /* EvilDwarf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EvilDwarf.jpg; sourceTree = "<group>"; };
+		C423A3991574A81B00D7D1FA /* FitnessInstructor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FitnessInstructor.jpg; sourceTree = "<group>"; };
+		C423A39A1574A81B00D7D1FA /* Gangster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gangster.jpg; sourceTree = "<group>"; };
+		C423A39B1574A81B00D7D1FA /* Gladiator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gladiator.jpg; sourceTree = "<group>"; };
+		C423A39C1574A81B00D7D1FA /* Graduate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Graduate.jpg; sourceTree = "<group>"; };
+		C423A39D1574A81B00D7D1FA /* IceFisherman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IceFisherman.jpg; sourceTree = "<group>"; };
+		C423A39E1574A81B00D7D1FA /* LizardMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LizardMan.jpg; sourceTree = "<group>"; };
+		C423A39F1574A81B00D7D1FA /* Lumberjack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lumberjack.jpg; sourceTree = "<group>"; };
+		C423A3A01574A81B00D7D1FA /* RoyalGuard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RoyalGuard.jpg; sourceTree = "<group>"; };
+		C423A3A11574A81B00D7D1FA /* SmallClown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SmallClown.jpg; sourceTree = "<group>"; };
+		C423A3A21574A81B00D7D1FA /* SnowboarderGuy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SnowboarderGuy.jpg; sourceTree = "<group>"; };
+		C423A3A31574A81B00D7D1FA /* Zookeeper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zookeeper.jpg; sourceTree = "<group>"; };
+		C423A3B61574A85200D7D1FA /* Boxer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Boxer.plist; sourceTree = "<group>"; };
+		C423A3B71574A85200D7D1FA /* CaveWoman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CaveWoman.plist; sourceTree = "<group>"; };
+		C423A3B81574A85200D7D1FA /* EgyptianQueen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EgyptianQueen.plist; sourceTree = "<group>"; };
+		C423A3B91574A85200D7D1FA /* SmallClown.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SmallClown.plist; sourceTree = "<group>"; };
+		C423A3BA1574A85200D7D1FA /* EvilDwarf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EvilDwarf.plist; sourceTree = "<group>"; };
+		C423A3BB1574A85200D7D1FA /* IceFisherman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IceFisherman.plist; sourceTree = "<group>"; };
+		C423A3BC1574A85200D7D1FA /* FitnessInstructor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FitnessInstructor.plist; sourceTree = "<group>"; };
+		C423A3BD1574A85200D7D1FA /* Gangster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Gangster.plist; sourceTree = "<group>"; };
+		C423A3BE1574A85200D7D1FA /* Gladiator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Gladiator.plist; sourceTree = "<group>"; };
+		C423A3BF1574A85200D7D1FA /* Graduate.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Graduate.plist; sourceTree = "<group>"; };
+		C423A3C01574A85200D7D1FA /* LizardMan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LizardMan.plist; sourceTree = "<group>"; };
+		C423A3C21574A85200D7D1FA /* Lumberjack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lumberjack.plist; sourceTree = "<group>"; };
+		C423A3C31574A85200D7D1FA /* RoyalGuard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RoyalGuard.plist; sourceTree = "<group>"; };
+		C423A3C41574A85200D7D1FA /* Detective.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Detective.plist; sourceTree = "<group>"; };
+		C423A3C51574A85200D7D1FA /* SnowboarderGuy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SnowboarderGuy.plist; sourceTree = "<group>"; };
+		C423A3D61574AC4400D7D1FA /* Zookeeper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Zookeeper.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +389,7 @@
 		C40FCE3E156D589100249D22 /* Series */ = {
 			isa = PBXGroup;
 			children = (
+				C423A3921574A81A00D7D1FA /* 5 */,
 				C423A36F1574A65E00D7D1FA /* 6 */,
 				C40FCE3F156D589100249D22 /* 7 */,
 			);
@@ -365,6 +432,7 @@
 		C40FCE61156D589800249D22 /* Series */ = {
 			isa = PBXGroup;
 			children = (
+				C423A3B51574A85200D7D1FA /* 5 */,
 				C423A34B1574A19800D7D1FA /* 6 */,
 				C40FCE62156D589800249D22 /* 7 */,
 			);
@@ -453,6 +521,53 @@
 				C423A3801574A65E00D7D1FA /* Surgeon.jpg */,
 			);
 			path = 6;
+			sourceTree = "<group>";
+		};
+		C423A3921574A81A00D7D1FA /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				C423A3931574A81B00D7D1FA /* 5.txt */,
+				C423A3941574A81B00D7D1FA /* Boxer.jpg */,
+				C423A3951574A81B00D7D1FA /* CaveWoman.jpg */,
+				C423A3961574A81B00D7D1FA /* Detective.jpg */,
+				C423A3971574A81B00D7D1FA /* EgyptianQueen.jpg */,
+				C423A3981574A81B00D7D1FA /* EvilDwarf.jpg */,
+				C423A3991574A81B00D7D1FA /* FitnessInstructor.jpg */,
+				C423A39A1574A81B00D7D1FA /* Gangster.jpg */,
+				C423A39B1574A81B00D7D1FA /* Gladiator.jpg */,
+				C423A39C1574A81B00D7D1FA /* Graduate.jpg */,
+				C423A39D1574A81B00D7D1FA /* IceFisherman.jpg */,
+				C423A39E1574A81B00D7D1FA /* LizardMan.jpg */,
+				C423A39F1574A81B00D7D1FA /* Lumberjack.jpg */,
+				C423A3A01574A81B00D7D1FA /* RoyalGuard.jpg */,
+				C423A3A11574A81B00D7D1FA /* SmallClown.jpg */,
+				C423A3A21574A81B00D7D1FA /* SnowboarderGuy.jpg */,
+				C423A3A31574A81B00D7D1FA /* Zookeeper.jpg */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		C423A3B51574A85200D7D1FA /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				C423A3B61574A85200D7D1FA /* Boxer.plist */,
+				C423A3B71574A85200D7D1FA /* CaveWoman.plist */,
+				C423A3B81574A85200D7D1FA /* EgyptianQueen.plist */,
+				C423A3B91574A85200D7D1FA /* SmallClown.plist */,
+				C423A3BA1574A85200D7D1FA /* EvilDwarf.plist */,
+				C423A3BB1574A85200D7D1FA /* IceFisherman.plist */,
+				C423A3BC1574A85200D7D1FA /* FitnessInstructor.plist */,
+				C423A3BD1574A85200D7D1FA /* Gangster.plist */,
+				C423A3BE1574A85200D7D1FA /* Gladiator.plist */,
+				C423A3BF1574A85200D7D1FA /* Graduate.plist */,
+				C423A3C01574A85200D7D1FA /* LizardMan.plist */,
+				C423A3C21574A85200D7D1FA /* Lumberjack.plist */,
+				C423A3C31574A85200D7D1FA /* RoyalGuard.plist */,
+				C423A3C41574A85200D7D1FA /* Detective.plist */,
+				C423A3C51574A85200D7D1FA /* SnowboarderGuy.plist */,
+				C423A3D61574AC4400D7D1FA /* Zookeeper.plist */,
+			);
+			path = 5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,6 +713,39 @@
 				C423A38F1574A65E00D7D1FA /* SkaterGirl.jpg in Resources */,
 				C423A3901574A65E00D7D1FA /* Sleepyhead.jpg in Resources */,
 				C423A3911574A65E00D7D1FA /* Surgeon.jpg in Resources */,
+				C423A3A41574A81B00D7D1FA /* 5.txt in Resources */,
+				C423A3A51574A81B00D7D1FA /* Boxer.jpg in Resources */,
+				C423A3A61574A81B00D7D1FA /* CaveWoman.jpg in Resources */,
+				C423A3A71574A81B00D7D1FA /* Detective.jpg in Resources */,
+				C423A3A81574A81B00D7D1FA /* EgyptianQueen.jpg in Resources */,
+				C423A3A91574A81B00D7D1FA /* EvilDwarf.jpg in Resources */,
+				C423A3AA1574A81B00D7D1FA /* FitnessInstructor.jpg in Resources */,
+				C423A3AB1574A81B00D7D1FA /* Gangster.jpg in Resources */,
+				C423A3AC1574A81B00D7D1FA /* Gladiator.jpg in Resources */,
+				C423A3AD1574A81B00D7D1FA /* Graduate.jpg in Resources */,
+				C423A3AE1574A81B00D7D1FA /* IceFisherman.jpg in Resources */,
+				C423A3AF1574A81B00D7D1FA /* LizardMan.jpg in Resources */,
+				C423A3B01574A81B00D7D1FA /* Lumberjack.jpg in Resources */,
+				C423A3B11574A81B00D7D1FA /* RoyalGuard.jpg in Resources */,
+				C423A3B21574A81B00D7D1FA /* SmallClown.jpg in Resources */,
+				C423A3B31574A81B00D7D1FA /* SnowboarderGuy.jpg in Resources */,
+				C423A3B41574A81B00D7D1FA /* Zookeeper.jpg in Resources */,
+				C423A3C61574A85200D7D1FA /* Boxer.plist in Resources */,
+				C423A3C71574A85200D7D1FA /* CaveWoman.plist in Resources */,
+				C423A3C81574A85200D7D1FA /* EgyptianQueen.plist in Resources */,
+				C423A3C91574A85200D7D1FA /* SmallClown.plist in Resources */,
+				C423A3CA1574A85200D7D1FA /* EvilDwarf.plist in Resources */,
+				C423A3CB1574A85200D7D1FA /* IceFisherman.plist in Resources */,
+				C423A3CC1574A85200D7D1FA /* FitnessInstructor.plist in Resources */,
+				C423A3CD1574A85200D7D1FA /* Gangster.plist in Resources */,
+				C423A3CE1574A85200D7D1FA /* Gladiator.plist in Resources */,
+				C423A3CF1574A85200D7D1FA /* Graduate.plist in Resources */,
+				C423A3D01574A85200D7D1FA /* LizardMan.plist in Resources */,
+				C423A3D21574A85200D7D1FA /* Lumberjack.plist in Resources */,
+				C423A3D31574A85200D7D1FA /* RoyalGuard.plist in Resources */,
+				C423A3D41574A85200D7D1FA /* Detective.plist in Resources */,
+				C423A3D51574A85200D7D1FA /* SnowboarderGuy.plist in Resources */,
+				C423A3D71574AC4400D7D1FA /* Zookeeper.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
