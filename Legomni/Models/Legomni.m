@@ -25,4 +25,20 @@
     return self;
 }
 
+- (int) differentFiguresCount {
+    int count = 0;
+    for (Serie* s in self.series) {
+        count += [s differentFiguresCount];
+    }
+    return count;
+}
+
+- (int) doubleCount {
+    int count = 0;
+    for (Serie* s in self.series) {
+        count += [s doubleCount];
+    }
+    return count;
+}
+
 @end

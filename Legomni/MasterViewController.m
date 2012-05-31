@@ -73,6 +73,10 @@
     NSIndexPath* selectedIndexPath = [self.tableView indexPathForSelectedRow];
     [self.tableView reloadData];
     [self.tableView selectRowAtIndexPath:selectedIndexPath animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+
+    int count = [legomni differentFiguresCount];
+    int doubles = [legomni doubleCount];
+    self.title = [NSString stringWithFormat:@"%@ (%d + %d)", (NSLocalizedString(@"LEGO miniFigures", @"LEGO miniFigures")), count, doubles];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -200,6 +204,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        self.title = NSLocalizedString(@"All", @"All Series");
 	    if (!self.detailViewController) {
 	        self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil];
 	    }

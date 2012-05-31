@@ -12,4 +12,7 @@
 
 @property (strong, nonatomic) NSMutableArray* series;
 
+- (int) differentFiguresCount;
+- (int) doubleCount;
+
 @end
