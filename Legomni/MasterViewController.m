@@ -74,9 +74,10 @@
     [self.tableView reloadData];
     [self.tableView selectRowAtIndexPath:selectedIndexPath animated:NO scrollPosition:UITableViewScrollPositionMiddle];
 
+    int total = [legomni series].count * FIGURES_PER_SERIES;
     int count = [legomni differentFiguresCount];
     int doubles = [legomni doubleCount];
-    self.title = [NSString stringWithFormat:@"%@ (%d + %d)", (NSLocalizedString(@"LEGO miniFigures", @"LEGO miniFigures")), count, doubles];
+    self.title = [NSString stringWithFormat:@"%@ (%d/%d + %d)", (NSLocalizedString(@"LEGO miniFigures", @"LEGO miniFigures")), count, total, doubles];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -114,7 +115,7 @@
     Serie* serie = [self serieForIndex:section];
     int count = [serie differentFiguresCount];
     int doublesCount = [serie doubleCount];
-    return [NSString stringWithFormat:@"%@ %d (%d/16 + %d)", (NSLocalizedString(@"Série", @"Série")), serie.index, count, doublesCount];
+    return [NSString stringWithFormat:@"%@ %d (%d/%d + %d)", (NSLocalizedString(@"Série", @"Série")), serie.index, count, FIGURES_PER_SERIES, doublesCount];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

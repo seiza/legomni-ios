@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define FIGURES_PER_SERIES      16
+
 @interface Serie : NSObject
 
 @property (nonatomic) int index;
