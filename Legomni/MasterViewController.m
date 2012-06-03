@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "UpdateViewController.h"
 #import "Serie.h"
 #import "Figure.h"
 
@@ -19,7 +20,7 @@
 
 
 - (Serie*) serieForIndex:(int)index {
-    return [legomni.series objectAtIndex:index];
+    return [legomni.series objectAtIndex:index - 1];
 }
 
 - (Figure*) figureForIndexPath:(NSIndexPath*)indexPath {
@@ -106,12 +107,15 @@
 }
 
 // Customize the number of sections in the table view.
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return [legomni.series count];
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return [legomni.series count] + 1;
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return NSLocalizedString(@"Settings", @"Settings");
+    }
+    
     Serie* serie = [self serieForIndex:section];
     int count = [serie differentFiguresCount];
     int doublesCount = [serie doubleCount];
@@ -119,6 +123,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if (section == 0) return 1;
     return [[self serieForIndex:section].figures count];
 }
 
@@ -127,8 +132,7 @@
 }
 
 // Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -141,21 +145,30 @@
         cell.detailTextLabel.backgroundColor = [UIColor clearColor];
     }
 
-    // Configure the cell.
-    //cell.textLabel.text = NSLocalizedString(@"Detail", @"Detail");
-    Figure* figure = [self figureForIndexPath:indexPath];
-    cell.textLabel.text = figure.name;
-    cell.imageView.image = [UIImage imageNamed:[figure photoName]];
-    if (figure.slogan) {
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%d) %@ = %d", figure.index, (NSLocalizedString(@"Quantity", @"Quantity")), figure.quantity];
+    cell.imageView.image = nil;
+    cell.detailTextLabel.text = nil;
+
+    if (indexPath.section == 0) {
+        cell.textLabel.text = NSLocalizedString(@"Update", @"Update");
+        
     } else {
-        cell.detailTextLabel.text = nil;
+        Figure* figure = [self figureForIndexPath:indexPath];
+        cell.textLabel.text = figure.name;
+        cell.imageView.image = [UIImage imageNamed:[figure photoName]];
+        if (figure.slogan) {
+            cell.detailTextLabel.text = [NSString stringWithFormat:@"%d) %@ = %d", figure.index, (NSLocalizedString(@"Quantity", @"Quantity")), figure.quantity];
+            // } else {
+            //    cell.detailTextLabel.text = nil;
+        }
+        
     }
-    
+
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 0) return;
+
     Figure* figure = [self figureForIndexPath:indexPath];
     if (figure.quantity > 0) {
         cell.backgroundColor = [UIColor colorWithRed:181.0/256 green:253.0/256 blue:181.0/256 alpha:1]; // [UIColor greenColor];
@@ -204,18 +217,26 @@
 */
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.title = NSLocalizedString(@"All", @"All Series");
-	    if (!self.detailViewController) {
-	        self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil];
-	    }
-        [self.navigationController pushViewController:self.detailViewController animated:YES];
+    if (indexPath.section == 0) {
+        self.title = NSLocalizedString(@"Series", @"Series");
+        UpdateViewController* updateViewController = [[UpdateViewController alloc] initWithNibName:@"UpdateViewController_iPhone" bundle:nil];
+        [self.navigationController pushViewController:updateViewController animated:YES];
+
     } else {
-        self.detailViewController.detailUpdateDelegate = self;
-        self.detailViewController.detailIndexPath = indexPath;
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+            self.title = NSLocalizedString(@"All", @"All Series");
+            if (!self.detailViewController) {
+                self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil];
+            }
+            [self.navigationController pushViewController:self.detailViewController animated:YES];
+        } else {
+            self.detailViewController.detailUpdateDelegate = self;
+            self.detailViewController.detailIndexPath = indexPath;
+        }
+        Figure* figure = [self figureForIndexPath:indexPath];
+        self.detailViewController.detailItem = figure;
     }
-    Figure* figure = [self figureForIndexPath:indexPath];
-    self.detailViewController.detailItem = figure;
+
 }
 
 - (void) detailUpdatedForIndexPath:(NSIndexPath*)indexPath {

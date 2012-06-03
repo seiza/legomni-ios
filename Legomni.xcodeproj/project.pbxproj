@@ -128,6 +128,8 @@
 		C483C3F715752CEF00E7F77C /* Sleepyhead.plist in Resources */ = {isa = PBXBuildFile; fileRef = C483C3E715752CEF00E7F77C /* Sleepyhead.plist */; };
 		C483C3F815752CEF00E7F77C /* Surgeon.plist in Resources */ = {isa = PBXBuildFile; fileRef = C483C3E815752CEF00E7F77C /* Surgeon.plist */; };
 		C483C3FB1575367E00E7F77C /* SerieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C483C3FA1575367E00E7F77C /* SerieTests.m */; };
+		C4BA7646157BE39A0013355B /* UpdateViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BA7645157BE39A0013355B /* UpdateViewController_iPhone.xib */; };
+		C4BA764A157BE3F20013355B /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BA7649157BE3F20013355B /* UpdateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,6 +275,9 @@
 		C483C3E815752CEF00E7F77C /* Surgeon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Surgeon.plist; sourceTree = "<group>"; };
 		C483C3F91575367E00E7F77C /* SerieTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerieTests.h; sourceTree = "<group>"; };
 		C483C3FA1575367E00E7F77C /* SerieTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerieTests.m; sourceTree = "<group>"; };
+		C4BA7645157BE39A0013355B /* UpdateViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpdateViewController_iPhone.xib; path = Controllers/UpdateViewController_iPhone.xib; sourceTree = "<group>"; };
+		C4BA7648157BE3F20013355B /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateViewController.h; path = Controllers/UpdateViewController.h; sourceTree = "<group>"; };
+		C4BA7649157BE3F20013355B /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateViewController.m; path = Controllers/UpdateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +349,9 @@
 				C40FCDD2156D560800249D22 /* DetailViewController_iPhone.xib */,
 				C40FCDD5156D560800249D22 /* DetailViewController_iPad.xib */,
 				C40FCDBB156D560800249D22 /* Supporting Files */,
+				C4BA7648157BE3F20013355B /* UpdateViewController.h */,
+				C4BA7649157BE3F20013355B /* UpdateViewController.m */,
+				C4BA7645157BE39A0013355B /* UpdateViewController_iPhone.xib */,
 			);
 			path = Legomni;
 			sourceTree = "<group>";
@@ -751,6 +759,7 @@
 				C483C3F615752CEF00E7F77C /* SkaterGirl.plist in Resources */,
 				C483C3F715752CEF00E7F77C /* Sleepyhead.plist in Resources */,
 				C483C3F815752CEF00E7F77C /* Surgeon.plist in Resources */,
+				C4BA7646157BE39A0013355B /* UpdateViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,6 +801,7 @@
 				C40FCE6A156D59BB00249D22 /* Legomni.m in Sources */,
 				C40FCE6D156D59CD00249D22 /* Figure.m in Sources */,
 				C40FCE70156D5B3C00249D22 /* Serie.m in Sources */,
+				C4BA764A157BE3F20013355B /* UpdateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
