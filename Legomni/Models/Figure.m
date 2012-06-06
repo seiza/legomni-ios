@@ -25,6 +25,11 @@
     return [NSString stringWithFormat:@"s%d-%@", self.serie, self.code];
 }
 
+- (NSString*) figureCode {
+    return [NSString stringWithFormat:@"%d-%d", self.serie, self.index];
+}
+
+
 - (void)load {
     NSDictionary* storedData = [[NSUserDefaults standardUserDefaults] objectForKey:[self figureID]];
     if (storedData) {
@@ -78,5 +83,35 @@
     [self store];
 }
 
+// {"count":3,"created_at":"2012-06-06T06:12:33Z","figure_code":"7-3","first_at":null,"give":2,"id":1,"updated_at":"2012-06-06T06:12:33Z","user_id":1,"wanted":1}
+- (NSDictionary*) toJSON {
+    NSMutableDictionary* json = [NSMutableDictionary dictionaryWithCapacity:0];
+    // {"":3,"":"2012-06-06T06:12:33Z","":"7-3","":null,"":2,"":1,"":"2012-06-06T06:12:33Z","":1,"":1}
+    [json setValue:[self figureCode] forKey:@"figure_code"];
+    [json setValue:[NSNumber numberWithInt:self.quantity] forKey:@"count"];
+    
+//    [json setValue: forKey:@"id"];
+//    [json setValue: forKey:@"user_id"];
+//    [json setValue: forKey:@"give"];
+//    [json setValue: forKey:@"wanted"];
+//    [json setValue: forKey:@"created_at"];
+//    [json setValue: forKey:@"first_at"];
+//    [json setValue: forKey:@"updated_at"];
+    return json;
+}
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        // aString = [[aDecoder decodeObjectForKey:@"aStringkey"] retain];
+    }
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)encoder {
+    // add [super encodeWithCoder:encoder] if the superclass implements NSCoding
+    [encoder encodeObject:[self figureCode] forKey:@"figure_code"];
+    [encoder encodeInt:self.quantity forKey:@"count"];
+}
 
 @end

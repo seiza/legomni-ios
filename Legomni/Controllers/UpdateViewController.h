@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Legomni.h"
 
 @interface UpdateViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) Legomni* legomni;
 
 @property (weak, nonatomic) IBOutlet UITextField *userTextField;
 @property (weak, nonatomic) IBOutlet UITextField *serverTextField;

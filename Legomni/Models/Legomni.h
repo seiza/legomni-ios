@@ -14,5 +14,6 @@
 
 - (int) differentFiguresCount;
 - (int) doubleCount;
+- (NSArray*) figuresToPush;
 
 @end

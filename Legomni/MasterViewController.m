@@ -220,6 +220,7 @@
     if (indexPath.section == 0) {
         self.title = NSLocalizedString(@"Series", @"Series");
         UpdateViewController* updateViewController = [[UpdateViewController alloc] initWithNibName:@"UpdateViewController_iPhone" bundle:nil];
+        updateViewController.legomni = legomni;
         [self.navigationController pushViewController:updateViewController animated:YES];
 
     } else {

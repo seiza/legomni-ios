@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Figure : NSObject
+@interface Figure : NSObject <NSCoding>
 
 @property(strong, nonatomic) NSString* code;
 @property(strong, nonatomic) NSString* name;
@@ -24,5 +24,6 @@
 
 - (id)initWithCode:(NSString*)c andSerie:(int)s;
 - (NSString*) photoName;
+- (NSDictionary*) toJSON;
 
 @end

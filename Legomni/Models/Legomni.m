@@ -8,6 +8,7 @@
 
 #import "Legomni.h"
 #import "Serie.h"
+#import "Figure.h"
 
 @implementation Legomni
 
@@ -39,6 +40,18 @@
         count += [s doubleCount];
     }
     return count;
+}
+
+- (NSArray*) figuresToPush {
+    NSMutableArray* figures = [NSMutableArray array];
+    for (Serie* s in self.series) {
+        for (Figure* f in s.figures) {
+            if (f.quantity > 0) {
+                [figures addObject:f];
+            }
+        }
+    }
+    return figures;
 }
 
 @end
